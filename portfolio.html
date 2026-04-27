@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>Hello World!</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Kelly's Portfolio Page"> 
+	<link rel="shortcut icon" href="/favicon.ico"> 
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	
+	<!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+	
+	<!-- Owl Stylesheets -->
+	<link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
+	
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+	<link id="theme-style" rel="stylesheet" href="assets/css/custom.css">
+
+</head> 
+
+<body class="dark-mode">
+	
+	<header class="header text-center">	    
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Kelly Tran</a></h1>
+			
+			<nav class="navbar navbar-expand-lg navbar-dark" >
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div id="navigation" class="collapse navbar-collapse flex-column" >
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/hinh2.jpeg" alt="image" >			
+						
+						<div class="bio mb-3">Hi, my name is Kelly and I'm a full stack developer/product builder. Welcome to my personal website!</div><!--//bio-->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item"><a href="https://www.linkedin.com/in/kellytranha"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/kellytranha"><i class="fab fa-github-alt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.facebook.com/mjsskelly"><i class="fab fa-facebook fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://kellytranha.medium.com/"><i class="fab fa-medium fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+						<hr> 
+					</div><!--//profile-section-->
+					
+					<ul class="navbar-nav flex-column text-left">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
+						</li>
+					</ul>
+					
+					<div class="my-2">
+						<a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Contact Me</a>
+					</div>
+					
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
+					    
+					    <input class="toggle" id="darkmode" type="checkbox" checked>
+					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    
+					</div><!--//dark-mode-toggle-->
+				</div>
+			</nav>
+		</div><!--//force-overflow-->
+	</header>
+	
+	<div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container text-center single-col-max-width">
+			    <h2 class="heading">Portfolio</h2>
+			    <div class="intro">
+				<p>Check out my ongoing and previous projects.</p>
+				</div>
+					<div> 
+						<p>Want to get help with your project ot just to say hi?</p>
+					</div>
+			    <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Contact Me</a>
+			    	    
+		    </div><!--//container-->
+	    </section>
+		
+		<section class="projects-list px-3 py-5 p-md-5">
+		    <div class="container">
+			    <div class="text-center">
+				    <ul id="filters" class="filters mb-5 mx-auto pl-0">
+		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".pm">Product Management</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
+		            </ul><!--//filters-->
+			    </div>
+	            
+			    <div class="project-cards row isotope">
+					<div class="isotope-item col-md-6 mb-5 backend">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/todamoon.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="todamoon.html" class="theme-link">ToDaMoon Chatbot</a></h5>
+										<p class="card-text">Built a Facebook messenger chatbot that queries the most commented threads on r/WallStreetBets.</p>
+										<p class="card-text"><small class="text-muted">#API #ngrok #flask #python #messengerbots</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="todamoon.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="todamoon.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 frontend backend">	
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/trivia.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="trivia.html" class="theme-link">Trivia Genius</a></h5>
+										<p class="card-text">Built a simple trivia app using ReactJS, Reactstrap, Redux, and CSS. </p>
+										<p class="card-text"><small class="text-muted">#API #ReactJS #Reactstrap #Redux #javascript #CSS</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="trivia.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="trivia.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 pm">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/takiu.png" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="takiu.html" class="theme-link">Takiu - Internet of Toys</a></h5>
+										<p class="card-text">Developed a functional toy that can send/receive voice messages to/from grownups' smart devices.</p>
+										<p class="card-text"><small class="text-muted">#startup #IoT #hardware #productmanagement</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="takiu.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="takiu.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 pm">	
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/belazy.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="belazy.html" class="theme-link">Belazy</a></h5>
+										<p class="card-text">Co-founded a beauty and spa on demand platform that provides services conveniently to customers’ homes.</p>
+										<p class="card-text"><small class="text-muted">#startup #ondemand #platform #webapp #mobileapp</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="belazy.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="belazy.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 pm">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/sumo.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											<a href="sumo.html" class="theme-link">SumoPromo</a>
+										</h5>
+										<p class="card-text">Developed a real-time, location-based, on-demand promotion platform.</p>
+										<p class="card-text"><small class="text-muted">#startup #realtime #locationbased #ondemand #promotion #platform #productmanagement</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="sumo.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="sumo.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 pm">	
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/digiads.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="digi.html" class="theme-link">DigiAds</a></h5>
+										<p class="card-text">Developed and launched new product DiGiAds, Vietnam’s 1st smart digital signage platform.</p>
+										<p class="card-text"><small class="text-muted">#startup #IoT #digitalsignage #platform #webapp</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="digi.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="digi.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 frontend backend">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/cook.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="cook.html" class="theme-link">Ultimate Cookbook</a></h5>
+										<p class="card-text">Designed a PostgreSQL database for storing and querying recipes with advanced SQL techniques.</p>
+										<p class="card-text"><small class="text-muted">#SQL #PostgreSQL #python #database #CSS</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="cook.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="cook.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 frontend backend">	
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/personal.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="index.html" class="theme-link">Personal Website</a></h5>
+										<p class="card-text">Built a personal website (i.e., this website) using HTML, CSS, Bootstrap, and JavaScript.</p>
+										<p class="card-text"><small class="text-muted">#html #css #bootstrap #javascript</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="index.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="index.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+
+					<div class="isotope-item col-md-6 mb-5 frontend backend">	
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/horo.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="horo.html" class="theme-link">Horoscorpio</a></h5>
+										<p class="card-text">Built a native iOS horoscope application that is updated on a daily basis with Swift and third-party framework SwiftSoup.</p>
+										<p class="card-text"><small class="text-muted">#iOS #Swift #SwiftSoup #CocoaPods</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="index.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="index.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+
+					<div class="isotope-item col-md-6 mb-5 frontend backend">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/github.jpg" class="card-img" alt="image">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title"><a href="cook.html" class="theme-link">Github Issues</a></h5>
+										<p class="card-text">
+											Built a native iOS application that fetches data from Github API using SwiftUI.
+										</p>
+										<p class="card-text"><small class="text-muted">#iOS #API #SwiftUI </small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="index.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="index.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+			
+				</div><!--//row-->
+			
+		    </div>
+	    </section>
+    
+    </div><!--//main-wrapper-->
+
+	<!-- Javascript -->          
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script> 
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+	
+	
+	<!-- Dark Mode -->
+	<script src="assets/plugins/js-cookie.min.js"></script>
+	<script src="assets/js/dark-mode.js"></script>   
+	
+</body>
+</html> 
+
