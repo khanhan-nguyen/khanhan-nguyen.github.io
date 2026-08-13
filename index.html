@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
+
 <head>
 	<title>Hello World!</title>
 	
@@ -27,258 +28,604 @@
 
 </head> 
 
+
 <body class="dark-mode">
 	
 	<header class="header text-center">	    
 		<div class="force-overflow">
-			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Anna Nguyen</a></h1>
+
+			<h1 class="blog-name pt-lg-4 mb-0">
+				<a href="index.html">Anna Nguyen</a>
+			</h1>
 			
-			<nav class="navbar navbar-expand-lg navbar-dark" >
+			<nav class="navbar navbar-expand-lg navbar-dark">
 				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<button 
+					class="navbar-toggler" 
+					type="button" 
+					data-toggle="collapse" 
+					data-target="#navigation" 
+					aria-controls="navigation" 
+					aria-expanded="false" 
+					aria-label="Toggle navigation"
+				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				
-				<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div 
+					id="navigation" 
+					class="collapse navbar-collapse flex-column"
+				>
+
 					<div class="profile-section pt-3 pt-lg-0">
-						<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/avatar.jpg" alt="image" >			
+
+						<img 
+							class="profile-image mb-3 rounded-circle mx-auto" 
+							src="/assets/images/avatar.jpg" 
+							alt="image"
+						>			
 						
-						<div class="bio mb-3">Hi, I'm Anna, a undergraduate student at Fordham University. Welcome to my personal website!</div><!--//bio-->
+						<div class="bio mb-3">
+							Hi, I'm Anna, a undergraduate student at Fordham University. 
+							Welcome to my personal website!
+						</div>
+						
+						<!-- Social Links -->
 						<ul class="social-list list-inline py-2 mx-auto">
-							<li class="list-inline-item"><a href="https://www.linkedin.com/in/annakhanhannguyen/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://github.com/khanhan-nguyen"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://www.facebook.com/nnahnahk"><i class="fab fa-facebook fa-fw"></i></a></li>
-						</ul><!--//social-list-->
+
+							<!-- LinkedIn -->
+							<li class="list-inline-item">
+								<a 
+									href="https://www.linkedin.com/in/annakhanhannguyen/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-linkedin-in fa-fw"></i>
+								</a>
+							</li>
+
+							<!-- GitHub -->
+							<li class="list-inline-item">
+								<a 
+									href="https://github.com/khanhan-nguyen"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fab fa-github-alt fa-fw"></i>
+								</a>
+							</li>
+
+							<!-- Email -->
+							<li class="list-inline-item">
+								<a href="mailto:nnka.2706@gmail.com">
+									<i class="fas fa-envelope fa-fw"></i>
+								</a>
+							</li>
+
+						</ul>
+						<!--//social-list-->
+
 						<hr> 
-					</div><!--//profile-section-->
+
+					</div>
+					<!--//profile-section-->
 					
+					
+					<!-- Navigation -->
 					<ul class="navbar-nav flex-column text-left">
+
 						<li class="nav-item active">
-							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
+
+							<a 
+								class="nav-link" 
+								href="index.html"
+							>
+								<i class="fas fa-user fa-fw mr-2"></i>
+								About Me
+
+								<span class="sr-only">
+									(current)
+								</span>
+							</a>
+
 						</li>
+
+
 						<li class="nav-item">
-							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+
+							<a 
+								class="nav-link" 
+								href="portfolio.html"
+							>
+								<i class="fas fa-laptop-code fa-fw mr-2"></i>
+								Portfolio
+							</a>
+
 						</li>
+
+
 						<li class="nav-item">
-							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
+
+							<a 
+								class="nav-link" 
+								href="resume.html"
+							>
+								<i class="fas fa-file-alt fa-fw mr-2"></i>
+								Resume
+							</a>
+
 						</li>
+
 					</ul>
 					
+					
+					<!-- Contact -->
 					<div class="my-2">
-						<a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Contact Me</a>
+
+						<a 
+							class="btn btn-primary" 
+							href="contact.html" 
+							target="_blank"
+						>
+							<i class="fas fa-paper-plane mr-2"></i>
+							Contact Me
+						</a>
+
 					</div>
 					
+					
+					<!-- Dark Mode -->
 					<div class="dark-mode-toggle text-center w-100">
+
 						<hr class="mb-4">
-					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
+
+					    <h4 class="toggle-name mb-3">
+					    	<i class="fas fa-adjust mr-1"></i>
+					    	Dark Mode
+					    </h4>
 					    
-					    <input class="toggle" id="darkmode" type="checkbox" checked>
-					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    <input 
+					    	class="toggle" 
+					    	id="darkmode" 
+					    	type="checkbox" 
+					    	checked
+					    >
+
+					    <label 
+					    	class="toggle-btn mx-auto mb-0" 
+					    	for="darkmode"
+					    ></label>
 					    
-					</div><!--//dark-mode-toggle-->
+					</div>
+					<!--//dark-mode-toggle-->
+
 				</div>
+
 			</nav>
-		</div><!--//force-overflow-->
+
+		</div>
+		<!--//force-overflow-->
+
 	</header>
 	
+	
+	<!-- Main Wrapper -->
 	<div class="main-wrapper">
 		
+		
+		<!-- About Me Section -->
 		<section class="about-me-section p-3 p-lg-5 theme-bg-light">
+
 			<div class="container">
+
 				<div class="profile-teaser media flex-column flex-lg-row">
 					
 					<div class="media-body">
-						<h2 class="name font-weight-bold mb-1">An "Anna" Nguyen</h2>
-						<div class="tagline mb-3">Undergraduate Student | CS @ Fordham University </div>
-						<div class="bio mb-4">
-							<p>Hi everyone, I'm Anna! 👋</p>
-							<p>I was born and raised in Vietnam. I am a Computer Science student at Fordham University with interests in software development, data, artificial intelligence, and technology.</p>
-							<p>Originally, my academic and career path was headed straight toward Finance. I have always loved the strategic side of business, from managing cross-functional teams to overseeing logistics for community-driven projects back in Vietnam.</p>
-							<p>However, my trajectory completely changed when I participated in a national startup challenge. While driving the product design for a social impact app and working to scale our features down to a clean MVP, I had a massive realization: I didn't just want to manage the business side of products. I wanted to actually build them from the ground up.</p>
-							<p>A year ago, I printed out my very first "Hello, World." This officially pivoted my decision to change my major to Computer Science. I'm so glad I made the decision. Today, I’m diving deep into algorithms, data analysis, and building foundational projects in C and Python. </p> 
-							<p>I am actively looking for Software Engineering and Product Management internships where I can combine my background in business strategy with my passion for building clean, user-focused software.</p>
-						
 
-						</div mb-5><!--//bio-->
-						<div class="mb-4">
-							<a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
-							<a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
+						<h2 class="name font-weight-bold mb-1">
+							An "Anna" Nguyen
+						</h2>
+
+						<div class="tagline mb-3">
+							Undergraduate Student | CS @ Fordham University
 						</div>
-					</div><!--//media-body-->
-					<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.jpg" alt="profile picture">
+
+
+						<div class="bio mb-4">
+
+							<p>
+								Hi everyone, I'm Anna! 👋
+							</p>
+
+							<p>
+								I was born and raised in Vietnam. I am a Computer Science 
+								student at Fordham University with interests in software 
+								development, data, artificial intelligence, and technology.
+							</p>
+
+							<p>
+								Originally, my academic and career path was headed straight 
+								toward Finance. I have always loved the strategic side of 
+								business, from managing cross-functional teams to overseeing 
+								logistics for community-driven projects back in Vietnam.
+							</p>
+
+							<p>
+								However, my trajectory completely changed when I participated 
+								in a national startup challenge. While driving the product 
+								design for a social impact app and working to scale our features 
+								down to a clean MVP, I had a massive realization: I didn't just 
+								want to manage the business side of products. I wanted to 
+								actually build them from the ground up.
+							</p>
+
+							<p>
+								A year ago, I printed out my very first "Hello, World." 
+								This officially pivoted my decision to change my major to 
+								Computer Science. I'm so glad I made the decision. Today, 
+								I’m diving deep into algorithms, data analysis, and building 
+								foundational projects in C and Python.
+							</p>
+
+							<p>
+								I am actively looking for Software Engineering and Product 
+								Management internships where I can combine my background in 
+								business strategy with my passion for building clean, 
+								user-focused software.
+							</p>
+						
+						</div>
+						<!--//bio-->
+
+
+						<div class="mb-4">
+
+							<a 
+								class="btn btn-primary mr-2 mb-3" 
+								href="portfolio.html"
+							>
+								<i class="fas fa-arrow-alt-circle-right mr-2"></i>
+
+								<span class="d-none d-md-inline">
+									View
+								</span> 
+
+								Portfolio
+							</a>
+
+
+							<a 
+								class="btn btn-secondary mb-3" 
+								href="resume.html"
+							>
+								<i class="fas fa-file-alt mr-2"></i>
+
+								<span class="d-none d-md-inline">
+									View
+								</span> 
+
+								Resume
+							</a>
+
+						</div>
+
+					</div>
+					<!--//media-body-->
+
+
+					<img 
+						class="profile-image mb-3 rounded-circle mx-auto" 
+						src="/assets/images/profile.jpg" 
+						alt="profile picture"
+					>
+
 				</div>
+
 			</div>
-		</section><!--//about-me-section-->
+
+		</section>
+		<!--//about-me-section-->
 		
-		<div class="container"><hr></div>
-<section class="featured-section p-3 p-lg-5">
-	<div class="container">
-		<h2 class="section-title font-weight-bold mb-5">Education</h2>
-		<div class="well text-center">
-			<div class="row">
-				<div class="col-md-12 mb-2">
-					<a href="https://www.fordham.edu/" target="_blank">
-						<img width="250" src="/assets/images/fordham-logo.png" alt="Fordham University logo">
-					</a>
-					<h5 class="mt-5 mb-2">Fordham University</h5>
-					<h6>Department of Computer and Information Sciences</h6>
-					<p class="mb-1">Bachelor of Science in Computer Science</p>
-					<p>Expected Graduation: 2029</p>
-				</div>
-			</div>
+		
+		<div class="container">
+			<hr>
 		</div>
-	</div><!--//container-->
-</section>
-
-		<div class="container"><hr></div>
-
-<section class="featured-section p-3 p-lg-5">
-	<div class="container">
-		<h2 class="section-title font-weight-bold mb-5">Technical Projects</h2>
-		<div class="row">
-
-    <!-- Task Management -->
-    <div class="col-md-6 mb-5">
-        <div class="card project-card h-100">
-            <div class="card-body">
-
-                <h5 class="card-title">
-                    Task Management
-                </h5>
-
-                <p class="card-text">
-                    Built a responsive React single-page application with full
-                    CRUD functionality, task status filtering, and persistent
-                    browser storage.
-                </p>
-
-                <p class="card-text">
-                    Used React Hooks including useState and useEffect to manage
-                    dynamic application state and synchronize task updates.
-                </p>
-
-                <p class="card-text">
-                    <small class="text-muted">
-                        React.js • Vite • JavaScript • CSS • Web Storage API
-                    </small>
-                </p>
-
-                <!-- Repository URL -->
-                <a
-                    href="https://github.com/khanhan-nguyen/Task-Management-App"
-                    target="_blank"
-                    class="btn btn-sm btn-primary"
-                >
-                    <i class="fab fa-github mr-1"></i>
-                    View on GitHub
-                </a>
-
-            </div>
-        </div>
-    </div>
 
 
-    <!-- Background Remover -->
-    <div class="col-md-6 mb-5">
-        <div class="card project-card h-100">
-            <div class="card-body">
+		<!-- Education -->
+		<section class="featured-section p-3 p-lg-5">
 
-                <h5 class="card-title">
-                    Background Remover
-                </h5>
+			<div class="container">
 
-                <p class="card-text">
-                    Built a responsive web application that integrates the
-                    Remove.bg REST API to automatically remove image backgrounds
-                    and display real-time before-and-after previews.
-                </p>
-
-                <p class="card-text">
-                    Implemented drag-and-drop image uploads and local preview
-					using the HTML5 Drag-and-Drop and FileReader APIs, with
-					client-side input validation.
-                </p>
-
-                <p class="card-text">
-                    <small class="text-muted">
-                        HTML • JavaScript • CSS • REST API
-                    </small>
-                </p>
-
-                <!-- Repository URL -->
-                <a
-                    href="https://github.com/khanhan-nguyen/Background-Remover"
-                    target="_blank"
-                    class="btn btn-sm btn-primary"
-                >
-                    <i class="fab fa-github mr-1"></i>
-                    View on GitHub
-                </a>
-
-            </div>
-        </div>
-    </div>
+				<h2 class="section-title font-weight-bold mb-5">
+					Education
+				</h2>
 
 
-    <!-- Movie Trends -->
-    <div class="col-md-6 mb-5">
-        <div class="card project-card h-100">
-            <div class="card-body">
+				<div class="well text-center">
 
-                <h5 class="card-title">
-                    Movie Trends Data Analyzer
-                </h5>
+					<div class="row">
 
-                <p class="card-text">
-                    Conducted exploratory data analysis on more than 10,000 movie
-                    records to investigate box-office revenue, popular genres,
-                    and audience rating patterns across 20 years.
-                </p>
+						<div class="col-md-12 mb-2">
 
-                <p class="card-text">
-                   Cleaned and transformed the dataset with Pandas, resolving
-					500+ missing values and removing duplicates, then created
-					7+ Matplotlib visualizations to explore box-office and
-					audience trends.
-                </p>
+							<a 
+								href="https://www.fordham.edu/" 
+								target="_blank"
+							>
 
-                <p class="card-text">
-                    <small class="text-muted">
-                        Python • Pandas • Matplotlib • Data Analysis
-                    </small>
-                </p>
+								<img 
+									width="250" 
+									src="/assets/images/fordham-logo.png" 
+									alt="Fordham University logo"
+								>
 
-                <!-- Repository URL -->
-                <a
-                    href="https://github.com/khanhan-nguyen/Movie-Trend-Analyzer"
-                    target="_blank"
-                    class="btn btn-sm btn-primary"
-                >
-                    <i class="fab fa-github mr-1"></i>
-                    View on GitHub
-                </a>
+							</a>
 
-            </div>
-        </div>
-    </div>
-</div>
-	</div><!--//container-->
-</section><!--//featured-section-->
 
-	</div><!--//main-wrapper-->
+							<h5 class="mt-5 mb-2">
+								Fordham University
+							</h5>
+
+
+							<h6>
+								Department of Computer and Information Sciences
+							</h6>
+
+
+							<p class="mb-1">
+								Bachelor of Science in Computer Science
+							</p>
+
+
+							<p>
+								Expected Graduation: 2029
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!--//container-->
+
+		</section>
+
+
+		<div class="container">
+			<hr>
+		</div>
+
+
+
+		<!-- Technical Projects -->
+		<section class="featured-section p-3 p-lg-5">
+
+			<div class="container">
+
+				<h2 class="section-title font-weight-bold mb-5">
+					Technical Projects
+				</h2>
+
+
+				<div class="row">
+
+
+					<!-- Task Management -->
+					<div class="col-md-6 mb-5">
+
+						<div class="card project-card h-100">
+
+							<div class="card-body">
+
+
+								<h5 class="card-title">
+									Task Management
+								</h5>
+
+
+								<p class="card-text">
+
+									Built a responsive React single-page application 
+									with full CRUD functionality, task status filtering, 
+									and persistent browser storage.
+
+								</p>
+
+
+								<p class="card-text">
+
+									Used React Hooks including useState and useEffect 
+									to manage dynamic application state and synchronize 
+									task updates.
+
+								</p>
+
+
+								<p class="card-text">
+
+									<small class="text-muted">
+										React.js • Vite • JavaScript • CSS • Web Storage API
+									</small>
+
+								</p>
+
+
+								<a
+									href="https://github.com/khanhan-nguyen/Task-Management-App"
+									target="_blank"
+									class="btn btn-sm btn-primary"
+								>
+
+									<i class="fab fa-github mr-1"></i>
+									View on GitHub
+
+								</a>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<!-- Background Remover -->
+					<div class="col-md-6 mb-5">
+
+						<div class="card project-card h-100">
+
+							<div class="card-body">
+
+
+								<h5 class="card-title">
+									Background Remover
+								</h5>
+
+
+								<p class="card-text">
+
+									Built a responsive web application that integrates 
+									the Remove.bg REST API to automatically remove image 
+									backgrounds and display real-time before-and-after previews.
+
+								</p>
+
+
+								<p class="card-text">
+
+									Implemented drag-and-drop image uploads and local preview 
+									using the HTML5 Drag-and-Drop and FileReader APIs, 
+									with client-side input validation.
+
+								</p>
+
+
+								<p class="card-text">
+
+									<small class="text-muted">
+										HTML • JavaScript • CSS • REST API
+									</small>
+
+								</p>
+
+
+								<a
+									href="https://github.com/khanhan-nguyen/Background-Remover"
+									target="_blank"
+									class="btn btn-sm btn-primary"
+								>
+
+									<i class="fab fa-github mr-1"></i>
+									View on GitHub
+
+								</a>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<!-- Movie Trends -->
+					<div class="col-md-6 mb-5">
+
+						<div class="card project-card h-100">
+
+							<div class="card-body">
+
+
+								<h5 class="card-title">
+									Movie Trends Data Analyzer
+								</h5>
+
+
+								<p class="card-text">
+
+									Conducted exploratory data analysis on more than 
+									10,000 movie records to investigate box-office revenue, 
+									popular genres, and audience rating patterns across 
+									20 years.
+
+								</p>
+
+
+								<p class="card-text">
+
+									Cleaned and transformed the dataset with Pandas, 
+									resolving 500+ missing values and removing duplicates, 
+									then created 7+ Matplotlib visualizations to explore 
+									box-office and audience trends.
+
+								</p>
+
+
+								<p class="card-text">
+
+									<small class="text-muted">
+										Python • Pandas • Matplotlib • Data Analysis
+									</small>
+
+								</p>
+
+
+								<a
+									href="https://github.com/khanhan-nguyen/Movie-Trend-Analyzer"
+									target="_blank"
+									class="btn btn-sm btn-primary"
+								>
+
+									<i class="fab fa-github mr-1"></i>
+									View on GitHub
+
+								</a>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<!--//row-->
+
+			</div>
+			<!--//container-->
+
+		</section>
+		<!--//featured-section-->
+
+
+	</div>
+	<!--//main-wrapper-->
+
 
 
 	<!-- Javascript -->          
 	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+
 	<script src="assets/plugins/popper.min.js"></script> 
+
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
 	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
 	<script src="assets/js/testimonials.js"></script>  
+	
 	
 	<!-- Dark Mode -->
 	<script src="assets/plugins/js-cookie.min.js"></script>
+
 	<script src="assets/js/dark-mode.js"></script>   
 	
-</body>
-</html> 
 
+</body>
+
+</html>
